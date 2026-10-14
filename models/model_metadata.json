@@ -1,0 +1,25 @@
+{
+  "model_name": "Random Forest",
+  "features": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome",
+    "balance_per_campaign"
+  ],
+  "target": "y",
+  "positive_class": "yes",
+  "sample_size": 12000,
+  "test_size": 2400
+}

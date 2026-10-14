@@ -1,0 +1,4 @@
+model,best_cv_f1,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,best_params,tuning_seconds
+Random Forest,0.4223,0.8708,0.4495,0.4591,0.4542,0.7943,"{'model__max_depth': None, 'model__min_samples_leaf': 2, 'model__n_estimators': 100}",0.6
+Logistic Regression,0.3782,0.7671,0.2744,0.6014,0.3768,0.7619,{'model__C': 3.0},2.3
+Decision Tree,0.3486,0.7421,0.2432,0.5694,0.3408,0.6981,"{'model__max_depth': 10, 'model__min_samples_leaf': 2}",1.4
